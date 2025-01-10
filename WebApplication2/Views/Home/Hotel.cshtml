@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Hotel>
+@{
+    var locations = new List<string> { "الرياض", "جدة", "الدمام", "المدينة" };
+}
+
+<div class="container mt-5" dir="rtl">
+    <h2 class="mb-4">قائمة الفنادق</h2>
+
+    <form method="get">
+        <div class="form-group">
+            <label>اختر الموقع:</label><br />
+            @foreach (var location in locations)
+            {
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="locations" value="@location" />
+                    <label class="form-check-label">@location</label>
+                </div>
+            }
+        </div>
+        <button type="submit" class="btn btn-primary mt-2">بحث</button>
+    </form>
+
+    <div class="row mt-4">
+        @foreach (var hotel in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card custom-card shadow-sm border-0">
+                    <img src="@hotel.ImageUrl" class="card-img-top" alt="@hotel.Name" style="height: 200px; object-fit: cover; border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem;" />
+                    <div class="card-body">
+                        <h5 class="card-title text-light fw-bold">@hotel.Name</h5>
+                        <p class="card-text text-light">
+                            <strong>الموقع:</strong> @hotel.Location <br />
+                            <strong>التقييم:</strong> @hotel.Rating <br />
+                            <strong>الوصف:</strong> @hotel.Description <br />
+                            <strong>المرافق:</strong> @string.Join(", ", hotel.Facility) <br />
+                            <strong>المسافة من المركز:</strong> @hotel.DistanceFromCentre كم <br />
+                            <strong>عدد التقييمات:</strong> @hotel.ReviewCount
+                        </p>
+                        <a href="#" class="btn btn-outline-light">اججز</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    /* Custom card background */
+    .custom-card {
+        background-color: #505e5d; /* Set background color */
+        color: #fff; /* Light text to contrast with the dark background */
+    }
+
+    .card-body {
+        padding: 2rem; /* Optional: more padding inside the card */
+    }
+
+    .card-title {
+        color: #fff; /* Light color for card title */
+    }
+
+    .card-text {
+        color: #f0f0f0; /* Lighter color for the text in the card body */
+    }
+
+    .btn-outline-light {
+        border-color: #fff; /* White border for buttons */
+        color: #fff; /* White text color for the button */
+    }
+
+        .btn-outline-light:hover {
+            background-color: #fff; /* Button background color on hover */
+            color: #505e5d; /* Dark text color for contrast */
+        }
+</style>

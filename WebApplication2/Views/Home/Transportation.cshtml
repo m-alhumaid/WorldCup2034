@@ -1,0 +1,56 @@
+﻿@model List<WebApplication2.Models.Transportation>
+@* @model IEnumerable<Stadiums> *@
+
+<main class="main" dir="rtl">
+    <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (var transport in Model)
+            {
+                <div class="col">
+                    <div class="card custom-card h-100">
+                        <img src="@transport.Img" class="card-img-top" alt="@transport.Name" style="height: 200px; object-fit: cover;" />
+                        <div class="card-body">
+                            <h5 class="card-title text-light">@transport.Name</h5>
+                            <p class="card-text text-light">السعة: @transport.Capacity</p>
+                            <p class="card-text text-light">اللون: @transport.color</p>
+                            <p class="card-text text-light">الفئة: @transport.vehicle.Name</p>
+                            <p class="card-text text-light">الموديل: @transport.Version</p>
+
+                            <a href="#" class="btn btn-outline-light">حجز الآن</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</main>
+
+<style>
+    /* Custom card background */
+    .custom-card {
+        background-color: #505e5d; /* Set background color */
+        color: #fff; /* Light text to contrast with the dark background */
+    }
+
+    .card-body {
+        padding: 2rem; /* Optional: more padding inside the card */
+    }
+
+    .card-title {
+        color: #fff; /* Light color for card title */
+    }
+
+    .card-text {
+        color: #f0f0f0; /* Lighter color for the text in the card body */
+    }
+
+    .btn-outline-light {
+        border-color: #fff; /* White border for buttons */
+        color: #fff; /* White text color for the button */
+    }
+
+        .btn-outline-light:hover {
+            background-color: #fff; /* Button background color on hover */
+            color: #505e5d; /* Dark text color for contrast */
+        }
+</style>

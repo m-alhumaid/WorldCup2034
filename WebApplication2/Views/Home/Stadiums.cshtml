@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Stadiums>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="container mt-5         background:linear-gradient(45deg, #7bacbb, transparent);
+ py-4" dir="rtl">
+    <div class="row bg-transparent">
+        @foreach (var stadium in Model)
+        {
+            <div class="col-12 mb-4">
+                <div class="card custom-card bg-light shadow-sm border-0">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="@stadium.Img" class="img-fluid rounded-start" alt="@stadium.Name" style="height: 100%; object-fit: cover; border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title text-dark fw-bold">@stadium.Name</h5>
+                                <p class="card-text text-secondary">
+                                    <span class="d-block"><strong>المدينة:</strong> @stadium.City</span>
+                                    <span class="d-block"><strong>السعة:</strong> @stadium.Capacity</span>
+                                    <span class="d-block"><strong>التاريخ:</strong> @stadium.CDate.ToShortDateString()</span>
+                                    <span class="d-block"><strong>النوع:</strong> @stadium.Type</span>
+                                    <strong>المرافق:</strong>
+                                    <ul class="ps-3">
+                                        @foreach (var facility in stadium.Facility)
+                                        {
+                                            <li>@facility</li>
+                                        }
+                                    </ul>
+                                </p>
+                                <a href="@(stadium.Name == "استاد الملك عبدالله" ?
+                                          "https://ar.wikipedia.org/wiki/%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%A7%D9%84%D9%85%D9%84%D9%83_%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%84%D9%87_%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A9_(%D8%AC%D8%AF%D8%A9)" :
+                                          stadium.Name == " استاد مدينة الملك فهد الرياضية " ?
+                                          "https://ar.wikipedia.org/wiki/%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%A7%D9%84%D9%85%D9%84%D9%83_%D9%81%D9%87%D8%AF_%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A9" :
+                                          stadium.Name == "المربع الجديد" ?
+                                          "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D8%B1%D8%A8%D8%B9_%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF" :
+                                          stadium.Name == "استاد روشن" ?
+                                          "https://ar.wikipedia.org/wiki/%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF_%D8%B1%D9%88%D8%B4%D9%86" : "#")"
+                                   class="btn btn-outline-secondary btn-sm" target="_blank">
+                                    اقرأ المزيد
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<style>
+
+    .custom-card {
+        background-color: #505e5d !important; /* Set background color */
+        color: #fff !important; /* Light text to contrast with the dark background */
+    }
+
+    .card-body {
+        padding: 2rem !important; /* Optional: more padding inside the card */
+    }
+
+    .card-title {
+        color: #fff !important; /* Light color for card title */
+    }
+
+    .card-text {
+        color: #f0f0f0 !important; /* Lighter color for the text in the card body */
+    }
+
+    .btn-outline-light {
+        border-color: #fff !important; /* White border for buttons */
+        color: #fff !important; /* White text color for the button */
+    }
+
+        .btn-outline-light:hover {
+            background-color: #fff !important; /* Button background color on hover */
+            color: #505e5d ; /* Dark text color for contrast */
+        }
+                                          </style>

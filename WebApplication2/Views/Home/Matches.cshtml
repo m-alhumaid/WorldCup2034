@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Matches>
+
+@{
+    ViewData["Title"] = "جدول مباريات كأس العالم 2034";
+}
+
+<main>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center align-items-center mb-4">
+                <h3>@ViewData["Title"]</h3>
+            </div>
+
+            <div class="col rounded-md">
+                <div class="card">
+                    <div class="card-body custom-card bg-transparent">
+                        <table class="table table-bordered text-center">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>التاريخ</th>
+                                    <th>المجموعة</th>
+                                    <th>الفريق الأول</th>
+                                    <th>الفريق الثاني</th>
+                                    <th>الوقت</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var match in Model)
+                                {
+                                    <tr>
+                                        <td>@match.Date</td>
+                                        <td>@match.Group</td>
+                                        <td>@match.Team1</td>
+                                        <td>@match.Team2</td>
+                                        <td>@match.Time</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<style>
+    .table{
+        margin-bottom:0px;
+    }
+    /* Custom card background */
+    .custom-card {
+        color: #fff; /* White text to contrast with the dark background */
+    }
+
+    .card-body {
+        padding: 0rem !important;
+    }
+
+    .thead-dark th {
+        background-color: #444; /* Dark background for the table header */
+        color: white; /* White text in the table header */
+    }
+</style>

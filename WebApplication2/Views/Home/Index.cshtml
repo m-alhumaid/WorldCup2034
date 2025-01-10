@@ -1,0 +1,78 @@
+﻿@model IEnumerable<Categories>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="container mt-5">
+    <div class="row">
+        @foreach (var Categories in Model)
+        {
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <a asp-action="@Categories.Url">
+                    <div class="card shadow-lg border-0 rounded-4 category-card">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col text-start">
+                                    <h3 class="category-title">@Categories.Name</h3>
+                                </div>
+                                <div class="col text-end">
+                                    <div class="icon-container">
+                                        @Html.Raw(Categories.Icon)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+
+    </div>
+</div>
+
+<style>
+    /* RTL Layout */
+    body {
+        direction: rtl; /* Right to Left direction */
+        background:linear-gradient(45deg, #7bacbb, transparent)!important;
+    }
+
+    /* General Card Styling */
+    .category-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-color: #505e5d; /* Dark background */
+        color: #fff; /* Light text for contrast */
+        border-radius: 10px; /* Rounded corners for modern look */
+    }
+
+        .category-card:hover {
+            transform: translateY(-8px); /* Lifts card on hover */
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+        }
+
+    .card-body {
+        padding: 2rem; /* Spacious padding */
+    }
+
+    /* Category Title Styling */
+    .category-title {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #f1f1f1; /* Light text */
+        margin-bottom: 0; /* No margin under title */
+    }
+
+    /* Icon container styling */
+    .icon-container {
+        font-size: 2.8rem; /* Larger icon size */
+        color: #00bcd4; /* Cyan color for icon */
+    }
+
+    /* Modern Color Scheme */
+    .category-card:hover {
+        background-color: #384241; /* Slightly lighter background on hover */
+    }
+
+   
+</style>

@@ -1,0 +1,307 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\views\\home\\matches.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\home\\matches.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\views\\home\\stadiums.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\home\\stadiums.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\views\\home\\hotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\home\\hotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\views\\home\\transportation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\home\\transportation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\models\\matches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\matches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\models\\stadiums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\stadiums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\models\\transportation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\transportation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\webapplication2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\webapplication2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\models\\transportationcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\transportationcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|c:\\users\\muaat\\source\\repos\\webapplication2\\webapplication2\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFFCFC-F432-4E3C-B99B-7E2FA5AB1A79}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Program.cs",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Program.cs",
+              "RelativeToolTip": "WebApplication2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T21:05:22.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Matches.cshtml",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Views\\Home\\Matches.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\Home\\Matches.cshtml",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Views\\Home\\Matches.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\Home\\Matches.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T20:42:49.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Hotel.cshtml",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Views\\Home\\Hotel.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\Home\\Hotel.cshtml",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Views\\Home\\Hotel.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\Home\\Hotel.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T20:42:00.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAnwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T20:51:33.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T21:06:54.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAnwJ8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T14:05:07.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Transportation.cshtml",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Views\\Home\\Transportation.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\Home\\Transportation.cshtml",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Views\\Home\\Transportation.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\Home\\Transportation.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T20:44:04.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Transportation.cs",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Models\\Transportation.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\Transportation.cs",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Models\\Transportation.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\Transportation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T20:32:03.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T20:44:27.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Stadiums.cshtml",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Views\\Home\\Stadiums.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\Home\\Stadiums.cshtml",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Views\\Home\\Stadiums.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\Home\\Stadiums.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T20:43:23.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Stadiums.cs",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Models\\Stadiums.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\Stadiums.cs",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Models\\Stadiums.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\Stadiums.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T20:30:56.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Matches.cs",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Models\\Matches.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\Matches.cs",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Models\\Matches.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\Matches.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T20:30:32.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WebApplication2\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WebApplication2\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-10T20:46:55.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WebApplication2",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+              "RelativeDocumentMoniker": "WebApplication2\\WebApplication2.csproj",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+              "RelativeToolTip": "WebApplication2\\WebApplication2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-10T21:05:41.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TransportationCategories.cs",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Models\\TransportationCategories.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\TransportationCategories.cs",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Models\\TransportationCategories.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\TransportationCategories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T20:29:45.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Models\\Categories.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\Categories.cs",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Models\\Categories.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\Categories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T20:28:44.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\Hotel.cs",
+              "ToolTip": "C:\\Users\\muaat\\source\\repos\\WebApplication2\\WebApplication2\\Models\\Hotel.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\Hotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T20:30:12.36Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
